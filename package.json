@@ -1,0 +1,34 @@
+{
+  "name": "daily-report-emailer",
+  "version": "1.0.0",
+  "description": "Daily report generator using Dify AI workflow with email notifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "RUN_ON_START=true node index.js"
+  },
+  "keywords": [
+    "dify",
+    "ai",
+    "workflow",
+    "email",
+    "cron",
+    "daily-report"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
